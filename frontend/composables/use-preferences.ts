@@ -23,7 +23,7 @@ export function useViewPreferences(): Ref<LocationViewPreferences> {
       showEmpty: true,
       editorAdvancedView: false,
       itemDisplayView: "card",
-      theme: "homebox",
+      theme: "lidark",
     },
     { mergeDefaults: true }
   );

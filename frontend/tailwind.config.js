@@ -7,6 +7,41 @@ module.exports = {
   daisyui: {
     themes: [
       {
+        lidark: {
+          "primary": "#3daee9",
+          "secondary": "#04bac5",
+          "accent": "#e974a3",
+          "neutral": "#31363b",
+          "base-100": "#232629",
+          "info": "#eff0f1",
+          "success": "#2cde85",
+          "warning": "#ffac33",
+          "error": "#c6344a",
+        },
+        lidark_amoled: {
+          "primary": "#3daee9",
+          "secondary": "#04bac5",
+          "accent": "#e974a3",
+          /* neutral alternative: #31363b */
+          "neutral": "#232629",
+          "base-100": "#000000",
+          "info": "#eff0f1",
+          "success": "#2cde85",
+          "warning": "#ffac33",
+          "error": "#c6344a",
+        },
+        /* TODO */
+        lilight: {
+          "primary": "#3daee9",
+          "secondary": "#04bac5",
+          "accent": "#e974a3",
+          "neutral": "#31363b",
+          "base-100": "#eff0f1",
+          "info": "#4d4d4d",
+          "success": "#2cde85",
+          "warning": "#ffac33",
+          "error": "#c6344a",
+        },
         homebox: {
           primary: "#5C7F67",
           secondary: "#ECF4E7",

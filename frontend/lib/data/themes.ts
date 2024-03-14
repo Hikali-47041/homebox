@@ -1,4 +1,7 @@
 export type DaisyTheme =
+  | "lidark"
+  | "lidark_amoled"
+  | "lilight"
   | "homebox"
   | "light"
   | "dark"
@@ -36,6 +39,18 @@ export type ThemeOption = {
 };
 
 export const themes: ThemeOption[] = [
+  {
+    label: "lidark",
+    value: "lidark",
+  },
+  {
+    label: "lidark_amoled",
+    value: "lidark_amoled",
+  },
+  {
+    label: "lilight",
+    value: "lilight",
+  },
   {
     label: "Homebox",
     value: "homebox",
